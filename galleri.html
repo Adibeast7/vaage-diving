@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galleri — Våge Diving</title>
+  <meta name="description" content="Bilder og video fra undervannsorpdrag, kamskjell og fjordene rundt Bømlo." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="logo">
+      <div class="logo-icon"><img src="images/bølgedel av logo.png" alt="Våge Diving"></div>
+      <img src="images/våge diving tekst logo.png" alt="Våge Diving" class="logo-text-img">
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Hjem</a></li>
+      <li><a href="tjenester.html">Tjenester</a></li>
+      <li><a href="galleri.html" class="active">Galleri</a></li>
+      <li><a href="om-oss.html">Om oss</a></li>
+      <li><a href="kontakt.html" class="nav-cta">Kontakt</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Meny">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Hjem</a>
+    <a href="tjenester.html">Tjenester</a>
+    <a href="galleri.html">Galleri</a>
+    <a href="om-oss.html">Om oss</a>
+    <a href="kontakt.html">Kontakt →</a>
+  </div>
+
+  <div class="page-hero" style="position:relative;">
+    <div class="page-hero-grid">
+      <div>
+        <span class="label">Bilder og video</span>
+        <h1>Galleri</h1>
+      </div>
+    </div>
+  </div>
+
+  <section class="section dark-bg">
+    <div class="container">
+
+      <div class="gallery-filters reveal">
+        <button class="filter-btn active" data-filter="all">Alt</button>
+        <button class="filter-btn" data-filter="dykking">Dykking</button>
+        <button class="filter-btn" data-filter="rov">ROV</button>
+        <button class="filter-btn" data-filter="kamskjell">Kamskjell</button>
+      </div>
+
+      <div class="gallery-grid reveal">
+        <div class="gallery-item span-2 span-h" data-cat="dykking">
+          <img src="images/flyter i vanne.jpg" alt="Dykking" loading="lazy">
+          <div class="gallery-overlay"><span class="gallery-caption">Bømlofjorden</span></div>
+        </div>
+        <div class="gallery-item" data-cat="dykking">
+          <img src="images/meg og jg dyjje.jpg" alt="Dykking" loading="lazy">
+          <div class="gallery-overlay"><span class="gallery-caption">Undervannsoppdrag</span></div>
+        </div>
+        <div class="gallery-item" data-cat="rov">
+          <img src="images/beste rov bilde.png" alt="Chasing M2 ROV" loading="lazy">
+          <div class="gallery-overlay"><span class="gallery-caption">Chasing M2 ROV</span></div>
+        </div>
+        <div class="gallery-item" data-cat="kamskjell">
+          <img src="images/kamskjell.jpg" alt="Kamskjell" loading="lazy">
+          <div class="gallery-overlay"><span class="gallery-caption">Ferske kamskjell</span></div>
+        </div>
+        <div class="gallery-item" data-cat="rov">
+          <img src="images/rov grab.webp" alt="ROV" loading="lazy">
+          <div class="gallery-overlay"><span class="gallery-caption">ROV-inspeksjon</span></div>
+        </div>
+      </div>
+
+      <div style="margin-top:4rem;" class="reveal">
+        <p class="label" style="margin-bottom:0.75rem;">Video</p>
+        <h3 style="font-family:'Playfair Display',serif; font-size:1.6rem; font-weight:800; letter-spacing:-0.02em; margin-bottom:2rem; color:var(--white);">Moringsjekk</h3>
+        <div style="background:var(--navy); border:1px solid var(--border); border-radius:16px; overflow:hidden;">
+          <video controls poster="images/Skjermbilde 2026-05-13 kl. 02.36.47.png"
+            style="width:100%; display:block; max-height:600px; object-fit:contain; background:#000;">
+            <source src="videos/Moringsjekk 1080p.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-inner" id="lightbox-inner"></div>
+  </div>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <div class="logo-icon"><img src="images/bølgedel av logo.png" alt=""></div>
+          <img src="images/våge diving tekst logo.png" alt="Våge Diving" class="logo-text-img">
+        </a>
+        <p>ROV-inspeksjon, kamskjell, undervannsfoto og andre undervannstjenester. Basert på Bømlo, Vestlandet.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/profile.php?id=100086006843153" target="_blank" rel="noopener" class="social-btn" title="Facebook">f</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Sider</h4>
+        <ul>
+          <li><a href="index.html">Hjem</a></li>
+          <li><a href="tjenester.html">Tjenester</a></li>
+          <li><a href="galleri.html">Galleri</a></li>
+          <li><a href="om-oss.html">Om oss</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Tjenester</h4>
+        <ul>
+          <li><a href="tjenester.html#rov">ROV-inspeksjon</a></li>
+          <li><a href="tjenester.html#kamskjell">Kamskjell</a></li>
+          <li><a href="tjenester.html#foto">Undervannsfoto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <ul>
+          <li>Bømlo, Vestlandet</li>
+          <li><a href="tel:94226287">942 26 287</a></li>
+          <li><a href="kontakt.html">Send forespørsel</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100086006843153" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2022 Våge Diving — Bømlo, Vestlandet</p>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

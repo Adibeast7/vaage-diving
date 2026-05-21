@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Våge Diving — Bømlo</title>
+  <meta name="description" content="ROV-inspeksjon, ferske kamskjell og undervannsfoto fra Bømlo, Vestlandet." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="logo">
+      <div class="logo-icon"><img src="images/bølgedel av logo.png" alt="Våge Diving"></div>
+      <img src="images/våge diving tekst logo.png" alt="Våge Diving" class="logo-text-img">
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Hjem</a></li>
+      <li><a href="tjenester.html">Tjenester</a></li>
+      <li><a href="galleri.html">Galleri</a></li>
+      <li><a href="om-oss.html">Om oss</a></li>
+      <li><a href="kontakt.html" class="nav-cta">Kontakt</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Meny">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Hjem</a>
+    <a href="tjenester.html">Tjenester</a>
+    <a href="galleri.html">Galleri</a>
+    <a href="om-oss.html">Om oss</a>
+    <a href="kontakt.html">Kontakt →</a>
+  </div>
+
+  <section class="hero">
+    <div class="hero-bg" style="background-image: url('images/flyter i vanne.jpg')"></div>
+
+    <div class="hero-content container">
+      <p class="hero-tag">Bømlo · Vestlandet</p>
+      <h1>Under<br><em>overflaten</em></h1>
+      <p class="hero-sub">ROV-inspeksjon, kamskjell og undervannsfoto fra Bømlo.</p>
+      <div class="hero-btns">
+        <a href="kontakt.html" class="btn btn-primary">Ta kontakt →</a>
+        <a href="tjenester.html" class="btn btn-outline">Se tjenester</a>
+      </div>
+    </div>
+    <div class="hero-scroll" onclick="document.getElementById('tjenester').scrollIntoView({behavior:'smooth'})">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <div class="stats-strip">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <span class="stat-num">ROV</span>
+        <div class="stat-label">Chasing M2 drone</div>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num"><img src="images/Design uten navn (2).png" alt="Kamskjell" style="width:2.6rem;height:2.6rem;object-fit:contain;filter:brightness(0) invert(1);"></span>
+        <div class="stat-label">Ferske kamskjell</div>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="32" height="32">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+            <circle cx="12" cy="13" r="4"/>
+          </svg>
+        </span>
+        <div class="stat-label">Undervannsfoto</div>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">Bømlo</span>
+        <div class="stat-label">Vestlandet</div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section dark-bg" id="tjenester">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="label">Tjenester</p>
+        <h2 class="section-title">Hva vi gjør</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon" style="padding:0;overflow:hidden;"><img src="images/beste rov bilde.png" alt="Chasing M2 ROV" style="width:100%;height:100%;object-fit:cover;"></div>
+          <h3>ROV-inspeksjon</h3>
+          <p>Undervannsinseksjon med Chasing M2 drone. HD-video fra hvert oppdrag.</p>
+          <a href="tjenester.html#rov" class="service-link">Les mer <span class="arrow">→</span></a>
+        </div>
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon"><img src="images/Design uten navn (2).png" alt="Kamskjell" style="width:2rem;height:2rem;object-fit:contain;filter:brightness(0) invert(1);"></div>
+          <h3>Ferske kamskjell</h3>
+          <p>Håndplukket fra Vestlandsfjordene. Levert ferskt, direkte fra havet.</p>
+          <a href="tjenester.html#kamskjell" class="service-link">Les mer <span class="arrow">→</span></a>
+        </div>
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="24" height="24">
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+              <circle cx="12" cy="13" r="4"/>
+            </svg>
+          </div>
+          <h3>Undervannsfoto</h3>
+          <p>Foto og video under vann — til dokumentasjon eller markedsføring.</p>
+          <a href="tjenester.html#foto" class="service-link">Les mer <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section dark-bg">
+    <div class="container">
+      <div class="campaign-block reveal">
+        <div class="campaign-text">
+          <span class="label">Sommerkampanje · Mai–September</span>
+          <h2 class="section-title" style="color:var(--white);">Sjekk moringa<br><em>før det er for sent.</em></h2>
+          <p style="color:var(--grey); max-width:480px; line-height:1.8;">En slitt moring gir ingen advarsel. For 3 750 kr tar vi en fullstendig ROV-inspeksjon — og du vet nøyaktig hva som holder båten din på plass.</p>
+          <div style="display:flex; align-items:center; gap:1.5rem; margin-top:2rem; flex-wrap:wrap;">
+            <a href="kontakt.html" class="btn btn-primary">Book inspeksjon →</a>
+            <span style="color:var(--teal); font-weight:600; font-size:1.1rem;">3 750 kr</span>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:3rem;" class="reveal">
+        <div style="background:var(--navy); border:1px solid var(--border); border-radius:16px; overflow:hidden;">
+          <video controls poster="images/Skjermbilde 2026-05-13 kl. 02.36.47.png"
+            style="width:100%; display:block; max-height:560px; object-fit:contain; background:#000;">
+            <source src="videos/Moringsjekk 1080p.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-banner reveal">
+    <h2>Ta kontakt</h2>
+    <p>Vi svarer samme dag.</p>
+    <div class="cta-btns">
+      <a href="kontakt.html" class="btn btn-primary">Kontakt oss →</a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <div class="logo-icon"><img src="images/bølgedel av logo.png" alt=""></div>
+          <img src="images/våge diving tekst logo.png" alt="Våge Diving" class="logo-text-img">
+        </a>
+        <p>ROV-inspeksjon, kamskjell, undervannsfoto og andre undervannstjenester. Basert på Bømlo, Vestlandet.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/profile.php?id=100086006843153" target="_blank" rel="noopener" class="social-btn" title="Facebook">f</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Sider</h4>
+        <ul>
+          <li><a href="index.html">Hjem</a></li>
+          <li><a href="tjenester.html">Tjenester</a></li>
+          <li><a href="galleri.html">Galleri</a></li>
+          <li><a href="om-oss.html">Om oss</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Tjenester</h4>
+        <ul>
+          <li><a href="tjenester.html#rov">ROV-inspeksjon</a></li>
+          <li><a href="tjenester.html#kamskjell">Kamskjell</a></li>
+          <li><a href="tjenester.html#foto">Undervannsfoto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <ul>
+          <li>Bømlo, Vestlandet</li>
+          <li><a href="tel:94226287">942 26 287</a></li>
+          <li><a href="kontakt.html">Send forespørsel</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100086006843153" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2022 Våge Diving — Bømlo, Vestlandet</p>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

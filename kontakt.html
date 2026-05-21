@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt — Våge Diving</title>
+  <meta name="description" content="Ta kontakt med Våge Diving — ROV-inspeksjon, kamskjell og undervannsfoto fra Bømlo." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="logo">
+      <div class="logo-icon"><img src="images/bølgedel av logo.png" alt="Våge Diving"></div>
+      <img src="images/våge diving tekst logo.png" alt="Våge Diving" class="logo-text-img">
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Hjem</a></li>
+      <li><a href="tjenester.html">Tjenester</a></li>
+      <li><a href="galleri.html">Galleri</a></li>
+      <li><a href="om-oss.html">Om oss</a></li>
+      <li><a href="kontakt.html" class="nav-cta active">Kontakt</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Meny">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Hjem</a>
+    <a href="tjenester.html">Tjenester</a>
+    <a href="galleri.html">Galleri</a>
+    <a href="om-oss.html">Om oss</a>
+    <a href="kontakt.html">Kontakt →</a>
+  </div>
+
+  <div class="page-hero" style="position:relative;">
+    <div class="page-hero-grid">
+      <div>
+        <span class="label">Vi svarer samme dag</span>
+        <h1>Kontakt</h1>
+      </div>
+    </div>
+  </div>
+
+  <section class="section dark-bg">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="reveal">
+          <p class="label" style="margin-bottom:1.5rem;">Finn oss</p>
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon-wrap">📍</div>
+              <div>
+                <h4>Sted</h4>
+                <p>Bømlo, Vestlandet</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon-wrap">📞</div>
+              <div>
+                <h4>Telefon</h4>
+                <p><a href="tel:94226287">942 26 287</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon-wrap">💬</div>
+              <div>
+                <h4>Facebook</h4>
+                <p><a href="https://www.facebook.com/profile.php?id=100086006843153" target="_blank" rel="noopener">Våge Diving</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon-wrap">🕐</div>
+              <div>
+                <h4>Responstid</h4>
+                <p>Samme dag</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal reveal-delay-1">
+          <h3>Send en forespørsel</h3>
+          <p class="form-desc">Beskriv hva du trenger, så tar vi kontakt.</p>
+          <form id="contact-form" action="https://formspree.io/adrianvaage@gmail.com" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="navn">Navn</label>
+                <input type="text" id="navn" name="navn" placeholder="Navn / firma" required />
+              </div>
+              <div class="form-group">
+                <label for="kontakt">Telefon / e-post</label>
+                <input type="text" id="kontakt" name="kontakt" placeholder="Hvordan nå deg" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="teneste">Tjeneste</label>
+              <select id="teneste" name="teneste">
+                <option value="" disabled selected>Velg...</option>
+                <option value="rov">ROV-inspeksjon</option>
+                <option value="kamskjell">Ferske kamskjell</option>
+                <option value="foto">Undervannsfoto</option>
+                <option value="anna">Annet</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="melding">Melding</label>
+              <textarea id="melding" name="melding" placeholder="Hva trenger du hjelp med?"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send →</button>
+            <p class="form-note">Vi svarer samme dag.</p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <div class="logo-icon"><img src="images/bølgedel av logo.png" alt=""></div>
+          <img src="images/våge diving tekst logo.png" alt="Våge Diving" class="logo-text-img">
+        </a>
+        <p>ROV-inspeksjon, kamskjell, undervannsfoto og andre undervannstjenester. Basert på Bømlo, Vestlandet.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/profile.php?id=100086006843153" target="_blank" rel="noopener" class="social-btn" title="Facebook">f</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Sider</h4>
+        <ul>
+          <li><a href="index.html">Hjem</a></li>
+          <li><a href="tjenester.html">Tjenester</a></li>
+          <li><a href="galleri.html">Galleri</a></li>
+          <li><a href="om-oss.html">Om oss</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Tjenester</h4>
+        <ul>
+          <li><a href="tjenester.html#rov">ROV-inspeksjon</a></li>
+          <li><a href="tjenester.html#kamskjell">Kamskjell</a></li>
+          <li><a href="tjenester.html#foto">Undervannsfoto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <ul>
+          <li>Bømlo, Vestlandet</li>
+          <li><a href="tel:94226287">942 26 287</a></li>
+          <li><a href="kontakt.html">Send forespørsel</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100086006843153" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2022 Våge Diving — Bømlo, Vestlandet</p>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
